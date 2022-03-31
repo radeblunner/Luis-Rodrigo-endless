@@ -237,9 +237,16 @@ li{
         padding: 5px;
     }
     .index-cards img{
+        width: 80vw;
+        /* border-radius: 50px; */
+        transition: height 2s;
+    }
+    .index-cards img hover{
         width: 90vw;
         border-radius: 50px;
+        transition: height 2s;
     }
+
     .index-cards{
         display: flex;
         flex-direction: column;
