@@ -214,6 +214,10 @@ li{
     .index-header img{
         /* padding: 60px; */
         width: 500px;
+        transition: width 0.5s;
+    }
+    .index-header img:hover{
+        width: 550px;
     }
     .index-header ul{
         display: flex;
@@ -222,6 +226,10 @@ li{
     .index-header li{
         font-size: 1.5rem;
         padding: 15px;
+        transition: font-size 0.5s;
+    }
+    .index-header li:hover{
+        font-size: 2rem;
     }
     .index-main{
         background-color: #f1e8d7;
@@ -238,13 +246,11 @@ li{
     }
     .index-cards img{
         width: 80vw;
-        /* border-radius: 50px; */
-        transition: height 2s;
-    }
-    .index-cards img hover{
-        width: 90vw;
         border-radius: 50px;
-        transition: height 2s;
+        transition: width 2s;
+    }
+    .index-cards img:hover{
+        width: 90vw;
     }
 
     .index-cards{
